@@ -1,0 +1,126 @@
+body{
+    font-family:'pt sans', sans-serif;
+    background:url('bckk.jpg') no-repeat center/cover; 
+    /*background-color:#FFFF00; */
+    margin:0;
+    color:#292121;
+    line-height: 1.6;
+   
+}
+a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+#showcase{
+    margin:0;
+    padding:0;
+     /* background:url('pw1.jpg')  no-repeat left;   */
+
+     width: 100%; /*viewport-height */
+     position: relative;
+     /* the image position shouldnt move fom there so this position is used */
+     overflow: hidden;
+     /* to avoid the image overflow (bulging) behind background color */
+    
+}
+
+#showcase .container{
+    margin: size 4rem;
+    margin-bottom: 0;
+}
+#showcase h1{
+    font-size:5rem;  
+     /*root element font size */
+
+}
+nav{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    /* position:fixed; */
+}
+nav ul{
+    margin:0;
+    padding: 0;
+}
+nav li{
+    display:inline;
+    float:left;
+}
+nav a{
+    display: inline-block;
+    width: 101px;
+    text-align:center;
+    text-decoration: none;
+     padding: 10px 0; /*top bottom/left right */
+     color: rgb(253, 251, 251);;
+}
+ nav li:hover{
+     background-color: rgb(114, 106, 106);
+ }
+ .container{
+     max-width: 1180px;
+     text-align: center;
+     margin: 0 auto;
+     padding: 0 3rem;
+ }
+ .lead{
+     font-size: 1.3rem;
+    
+  }
+ footer .footer-cols{
+     display: grid;
+     grid-gap: 20px;
+     grid-template-columns: repeat(4,1fr);
+     padding: 2rem;
+     text-align: left;
+     font-size: 14px;
+    
+ }
+
+ footer .footer-cols ul{
+     list-style: none;
+     
+ }
+ footer .footer-cols ul li:first-child{
+     font-size: 1.2rem;
+     padding-bottom: 0.5rem;
+     border-bottom: rgb(0, 0, 0) solid 2px;
+     margin-bottom: 1rem;
+
+ }
+ footer .footer-bottom{
+     background-color:rgb(0, 0, 0);
+     color: rgb(255, 255, 255);
+     padding: 1rem;
+     text-align: center;
+     position: relative;
+
+ }
+ 
+ 
+ .lead{
+     color:rgb(0, 0, 0);
+ } 
+ 
+ /* tools */
+ /* .picleft{
+     float:left;
+     margin-left:1px;
+ } */
+
+.fab{
+   
+    padding-left:555%;
+}
+.fas{
+   
+    padding-left:555%;
+    
+}
+
+h3{
+    text-align: right;
+}
+
